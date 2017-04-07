@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/item_buletooth_rl"
+    android:background="@color/white"
+    android:layout_height="71dip">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="70dip">
+        <TextView
+            android:id="@+id/item_buletooth_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"
+            android:textSize="16sp"
+            android:text="扫描设备"/>
+
+        <TextView
+            android:id="@+id/item_buletooth_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_buletooth_name"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            android:textSize="16sp"
+            android:text="设备号"/>
+        <TextView
+            android:id="@+id/item_buletooth_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:text="设备号"/>
+
+        <ImageView
+            android:id="@+id/item_buletooth_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:src="@mipmap/duigou"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/primaryBgColor"
+        android:layout_marginLeft="20dip"
+        >
+    </View>
+
+</LinearLayout>
